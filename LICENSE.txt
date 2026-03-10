@@ -1,0 +1,29 @@
+COPYRIGHT (c) 2024-2025 National Atmospheric Deposition Program (NADP_NTN network).
+ALL RIGHTS RESERVED.
+
+PROPRIETARY LICENSE / FREEWARE FOR PUBLIC USE
+
+1. GRANT OF LICENSE
+This software ("The Software") is the property of the National Atmospheric Deposition Program (NADP). 
+Permission is hereby granted to any person obtaining a copy of this software to install and use The Software 
+for scientific research, data analysis, and non-commercial purposes.
+
+2. RESTRICTIONS
+You may NOT:
+   a. Sell, rent, lease, or commercially exploit The Software without written permission from NADP.
+   b. Modify, reverse engineer, decompile, or disassemble the binary components of The Software.
+   c. Remove any proprietary notices or labels on The Software.
+   d. Redistribute the Software on other websites or platforms. Users should download The Software directly from the 
+   official repository.
+
+3. OWNERSHIP
+The Software is licensed, not sold. Title and copyrights in and to The Software and any copies thereof remain with NADP.
+
+4. NO WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-------------------------------------------------------------------------------
