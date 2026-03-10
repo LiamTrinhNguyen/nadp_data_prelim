@@ -105,10 +105,6 @@ Phase 6: Report Generation: Exports a consolidated .xlsx file for interactive hu
 
     ```
 
-
-
-
-
 ## Configuration
 
     caution: Beware of the hidden file and folders, since the example of some file starting with '.'
