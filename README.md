@@ -30,12 +30,12 @@ Phase 6: Report Generation: Exports a consolidated .xlsx file for interactive hu
 
     - Optional: Anaconda or Miniconda (Recommended for environment management).
 
-2.  **Create a Virtual Environment (optional): due to verisoning control**
+2.  **Create a Virtual Environment (optional): due to versioning control**
     This application can be deployed on any machine using a Python virtual environment. Installing the .whl file will automatically download and install all required dependencies (e.g., pandas, numpy).
 
     Open the Anaconda/Miniconda prompt and initialize it if you haven't already:    
 
-    - after install anaconda or miniconda, open anaconda prompt/ miniconda prompt:
+    - after installing Anaconda or miniconda, open Anaconda prompt/ miniconda prompt:
         ```bash
         conda inital
         ```
@@ -44,18 +44,18 @@ Phase 6: Report Generation: Exports a consolidated .xlsx file for interactive hu
     
     - open CMD windows:
         ```bash
-        conda --version #this code to check the conda install successful or not
-        conda env list #get all available env of machine, 
+        conda --version #this code to check if the conda install successful or not
+        conda env list #get all available environments of the machine, 
         ```
     
-    -  the result should return with an env such: 
+    -  the result should return with an env such as: 
         ```bash
         # conda environments:
         #
         base                     C:\Program Files\ArcGIS\Pro\bin\Python
         arcgispro-py3            C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3
         ```
-    - clone the arcgispro-py3, where 'arcgispro-py3-clone' can be anyname of user choose:
+    - clone the arcgispro-py3, where 'arcgispro-py3-clone' can be anyname of user chooses:
         ```bash
         conda create --name arcgispro-py3-clone --clone arcgispro-py3
         ```
@@ -63,10 +63,10 @@ Phase 6: Report Generation: Exports a consolidated .xlsx file for interactive hu
 2.  **Activate the Environment:**
     - On CMD Windows:
         ```bash
-        conda env list #get all available env of machine, 
+        conda env list #get all available environments of the machine, 
         ```
     
-    -  the result should return with an env such: 
+    -  the result should return with an env such as: 
         ```bash
         # conda environments:
         #
@@ -74,13 +74,13 @@ Phase 6: Report Generation: Exports a consolidated .xlsx file for interactive hu
         arcgispro-py3            C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3
         arcgispro-py3-clone   *  C:\Users\User_name\AppData\Local\ESRI\conda\envs\arcgispro-py3-clone
         ```
-    - after confirmed that clone env is there, activ env:
+    - after confirming that clone env is there, activate env:
         ```bash 
         conda activate arcgispro-py3-clone
         ```
-    -  the result should return with an env such: 
+    -  the result should return with an env such as: 
         ```bash
-        (arcgispro-py3-clone) C:\> # which indicated that the machine enter the clone env where the name of env in the ()
+        (arcgispro-py3-clone) C:\> # which indicated that the machine entered the clone env where the name of the env is in the ()
         ``` 
 
 3.  **Install Data_prelim file:**
@@ -107,11 +107,11 @@ Phase 6: Report Generation: Exports a consolidated .xlsx file for interactive hu
 
 ## Configuration
 
-    caution: Beware of the hidden file and folders, since the example of some file starting with '.'
-            Make sure shows all hidden file first then start working futher.
-            - go to the directory that is working with.
-            - On windown, hidden files and folders are displayed  by natigating to file explorer's 'view' tab ,
-            then selecting 'options' and 'change folder and search options'. in the 'view' tab of the dialog box,
+    Caution: Beware of the hidden files and folders, since some files start with '.'
+            Make sure to show all hidden files first, then proceed.
+            - Go to the directory that is working with.
+            - On Windows, hidden files and folders are displayed  by navigating to the file explorer's 'view' tab,
+            then selecting 'options' and 'change folder and search options'. In the 'view' tab of the dialog box,
             check'shows hidden files, folders, and drives' and click 'ok'
 
 
@@ -122,23 +122,23 @@ Phase 6: Report Generation: Exports a consolidated .xlsx file for interactive hu
 
     ```
 
-2.  Open the new `.env` file and change those key, to the correct data in and out path which link to folder in ##Input Data Requirements below
+2.  Open the new `.env` file and change those keys to the correct data in and out path, which link to the folder in ##Input Data Requirements below
 
 ```bash
 WSLH_OUTPUT_DIR=/NTN_review_2026/testing_ouput_NTN2026/ #change this 
 WSLH_THRESHOLD=0.05 # this should keep
 WSLH_THRESHOLD_EXTREME=0.30 #this should keep
 WSLH_DRIVE = ODBC Driver 17 for SQL Server #change this, if using the WSLH keep this one
-WSLH_SERVER =     # change this to correct name if server
+WSLH_SERVER =     # change this to the correct name of the server
 ```
 
 
 
 
 ## Usage
-run from CMD or terminal with give input from prompt:
-redirectly to the project's root directory that contains the .env file from CMD or terminal
-(optional: activate the virtual environment or using the base one. But make sure that uisng the environment that the package has been install else is not work)
+Run from CMD or terminal with give input from prompt:
+Redirect to the project's root directory that contains the .env file from CMD or terminal
+(optional: activate the virtual environment or use the base one. But make sure you are using the environment in which the package was installed; Else, it will not work.
 
 
     ```bash
