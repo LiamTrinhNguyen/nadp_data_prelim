@@ -28,7 +28,7 @@ Phase 6: Report Generation: Exports a consolidated .xlsx file for interactive hu
 
     - A .env file containing the output path, thresholds, driver, and server name.
 
-    - Optional: Anaconda or Miniconda (Recommended for environment management).
+    - Optional: Anaconda or Miniconda (Recommended for environment management, If not using conda skip step 2 and 3).
 
 2.  **Create a Virtual Environment (optional): due to versioning control**
     This application can be deployed on any machine using a Python virtual environment. Installing the .whl file will automatically download and install all required dependencies (e.g., pandas, numpy).
