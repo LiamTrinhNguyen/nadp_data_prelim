@@ -101,8 +101,6 @@ Phase 6: Report Generation: Exports a consolidated .xlsx file for interactive hu
     Author: Liam TrinhNguyen
     Author-email: Liamtrinhnguyen@gmail.com
     License: Proprietary / NADP Internal License
-    Location: C:\Users\Trinhnlx\AppData\Local\ESRI\conda\envs\arcgispro-py3-clone\Lib\site-packages
-
     ```
 
 ## Configuration
@@ -115,7 +113,7 @@ Phase 6: Report Generation: Exports a consolidated .xlsx file for interactive hu
             check'shows hidden files, folders, and drives' and click 'ok'
 
 
-1.  Create a `.env` file by copying the example template. This file will hold your local configuration.
+1.  Create a `.env` file by copying the example template to folder containing your .whl file or create new folder. This file will hold your local configuration.
     ```bash
     # On Windows (in Command Prompt)
     copy .env.example .env
