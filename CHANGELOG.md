@@ -15,6 +15,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - 
 ---
+## [0.2.0] - 2026-04-27
+-  
+### Added
+- add new module to dispaly auto correction_pcp using the SOP 304 - NADP (noise detection, false precip, dry Exp code U, full open status code B)
+### Fixed
+- update condition to display correct color in user report(DFDK, ENDREC, STARTEND)
+- update the review excel file 
+
+---
 ## [0.1.3] - 2026-03-20
 -  update condition to display correct color in user report for all sheet excel
 ### Added
