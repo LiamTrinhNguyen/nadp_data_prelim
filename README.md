@@ -12,12 +12,12 @@ The data_prelim package is a headless Python pipeline engineered to automate the
 Key Features: 
 The pipeline executes a strict 6-phase data engineering workflow:
 
-Phase 1: Gap & Overlap Detection: Analyzes chronological boundary records up to 90 days out to identify missing or overlapping sample windows.
-Phase 2: NTN1 Statistics Review: Aggregates and evaluates core network statistics.
-Phase 3: Chemical Status Checks: Flags samples exceeding defined chemical thresholds.
-Phase 4: TOTP Reload: Synchronizes and reloads TOTP data.
-Phase 5: Master Data Combination: Merges flags, null values, and anomalies into a single optimized master DataFrame.
-Phase 6: Report Generation: Exports a consolidated .xlsx file for interactive human review, alongside an optimized .parquet backup.
+- Phase 1: Gap & Overlap Detection: Analyzes chronological boundary records up to 90 days out to identify missing or overlapping sample windows.
+- Phase 2: NTN1 Statistics Review: Aggregates and evaluates core network statistics.
+- Phase 3: Chemical Status Checks: Flags samples exceeding defined chemical thresholds.
+- Phase 4: TOTP Reload: Synchronizes and reloads TOTP data.
+- Phase 5: Master Data Combination: Merges flags, null values, and anomalies into a single optimized master DataFrame.
+- Phase 6: Report Generation: Exports a consolidated .xlsx file for interactive human review, alongside an optimized .parquet backup.
 
 ## Setup
 1.  **Requirement**
