@@ -13,7 +13,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 -
 
 ### Changed
-- 
+---
+## [0.3.2] - 2026-10-30
+-  
+### Added
+- bulk and undefined tab
+- add option for late sample "saved notes code"
+
+### Fixed
+- changed the conditional lookup late and long period sample from days into hours
 ---
 ## [0.3.0] - 2026-07-07
 -  
